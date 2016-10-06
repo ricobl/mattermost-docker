@@ -1,6 +1,6 @@
 {
     "ServiceSettings": {
-        "ListenAddress": ":80",
+        "ListenAddress": ":APP_PORT",
         "MaximumLoginAttempts": 10,
         "SegmentDeveloperKey": "",
         "GoogleDeveloperKey": "",

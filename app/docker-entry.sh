@@ -16,6 +16,7 @@ PARSED_DBAAS_MYSQL_ENDPOINT=`_parse_endpoint $DBAAS_MYSQL_ENDPOINT`
 echo -ne "Configure database connection..."
 cp /config.template.json $config
 sed -i -e "s#DBAAS_MYSQL_ENDPOINT#$PARSED_DBAAS_MYSQL_ENDPOINT#" $config
+sed -i -e "s#APP_PORT#$PORT#" $config
 echo OK
 
 echo "Starting platform"
