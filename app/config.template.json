@@ -31,10 +31,10 @@
         "AtRestEncryptKey": "7rAh6iwQCkV4cA1Gsg3fgGOXJAQ43QVg"
     },
     "LogSettings": {
-        "EnableConsole": false,
-        "ConsoleLevel": "INFO",
-        "EnableFile": true,
-        "FileLevel": "INFO",
+        "EnableConsole": true,
+        "ConsoleLevel": "DEBUG",
+        "EnableFile": false,
+        "FileLevel": "DEBUG",
         "FileFormat": "",
         "FileLocation": ""
     },
