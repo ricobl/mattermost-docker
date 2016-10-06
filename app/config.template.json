@@ -17,7 +17,7 @@
         "MaxUsersPerTeam": 50,
         "EnableTeamCreation": true,
         "EnableUserCreation": true,
-        "RestrictCreationToDomains": "",
+        "RestrictCreationToDomains": "RESTRICT_CREATION_TO_DOMAINS",
         "RestrictTeamNames": true,
         "EnableTeamListing": false
     },
@@ -63,7 +63,7 @@
         "FeedbackEmail": "",
         "SMTPUsername": "",
         "SMTPPassword": "",
-        "SMTPServer": "",
+        "SMTPServer": "SMTP_SERVER",
         "SMTPPort": "",
         "ConnectionSecurity": "",
         "InviteSalt": "bjlSR4QqkXFBr7TP4oDzlfZmcNuH9YoS",
